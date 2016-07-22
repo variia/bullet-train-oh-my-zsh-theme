@@ -112,7 +112,7 @@ if [ ! -n "${BULLETTRAIN_NVM_FG+1}" ]; then
   BULLETTRAIN_NVM_FG=white
 fi
 if [ ! -n "${BULLETTRAIN_NVM_PREFIX+1}" ]; then
-  BULLETTRAIN_NVM_PREFIX=""
+  BULLETTRAIN_NVM_PREFIX=" "
 fi
 
 # RUBY
@@ -126,7 +126,7 @@ if [ ! -n "${BULLETTRAIN_RUBY_FG+1}" ]; then
   BULLETTRAIN_RUBY_FG=white
 fi
 if [ ! -n "${BULLETTRAIN_RUBY_PREFIX+1}" ]; then
-  BULLETTRAIN_RUBY_PREFIX=""
+  BULLETTRAIN_RUBY_PREFIX=" "
 fi
 
 # Go
@@ -140,7 +140,7 @@ if [ ! -n "${BULLETTRAIN_GO_FG+1}" ]; then
   BULLETTRAIN_GO_FG=white
 fi
 if [ ! -n "${BULLETTRAIN_GO_PREFIX+1}" ]; then
-  BULLETTRAIN_GO_PREFIX=""
+  BULLETTRAIN_GO_PREFIX=" "
 fi
 
 # DIR
@@ -197,7 +197,7 @@ if [ ! -n "${BULLETTRAIN_PERL_FG+1}" ]; then
   BULLETTRAIN_PERL_FG=black
 fi
 if [ ! -n "${BULLETTRAIN_PERL_PREFIX+1}" ]; then
-  BULLETTRAIN_PERL_PREFIX=""
+  BULLETTRAIN_PERL_PREFIX=" "
 fi
 
 # HG
